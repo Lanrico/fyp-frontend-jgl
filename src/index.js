@@ -14,7 +14,7 @@ import UserPage from "./pages/userProfilePage";
 import { Provider } from "react-redux";
 import { store } from './components/userProfileInfo/store';
 import LoginPage from "./pages/loginPage";
-import MediaContextProvider from "./context/mediaContextProvide";
+import MediaContextProvider from "./context/mediaContextProvider";
 import AuthContext from "./context/authContext";
 import ForgetPasswordPage from "./pages/forgetPasswordPage";
 import PaymentPage from "./pages/paymentPage";

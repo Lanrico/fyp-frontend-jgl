@@ -9,7 +9,7 @@ import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import SortIcon from '@mui/icons-material/Sort';
-import { MediaContext } from "../../context/mediaContextProvide";
+import { MediaContext } from "../../context/mediaContextProvider";
 import { dateFormatter, filterStringEncoder } from "../../util";
 import languageService from "../../api/languageService";
 import genresService from "../../api/genresService";
